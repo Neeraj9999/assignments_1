@@ -1,0 +1,39 @@
+.tableContainer {
+  background-color: #424242;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+table,
+th,
+td {
+  border-collapse: collapse;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+thead > tr {
+  height: 50px;
+  border-bottom: 1px solid white;
+}
+thead > tr > th:is(:first-child) {
+  border-right: 1px solid white;
+}
+td,
+th {
+  text-align: left;
+}
+td:is(:first-child) {
+  border-right: 1px solid white;
+}
+tr:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+tbody > tr {
+  height: 30px;
+}
