@@ -5,7 +5,7 @@ then -> to:
           start: yarn start
           build: yarn build
 This project contains two tables.
-By default Table One is visible to see the other table there is a toggle button on top right to switch between tables: ![image](https://github.com/Neeraj9999/assignments_1/assets/35757823/9acd367f-92e3-468a-a93c-d12dc81bf105)
+By default Table One is visible to see the other table there is a toggle button on top right to switch between tables: ![Screenshot 2023-08-05 121633](https://github.com/Neeraj9999/assignments_1/assets/35757823/d1c1c9cb-8a18-4702-9b04-4c5f89011edc)
 
 Table One : ![image](https://github.com/Neeraj9999/assignments_1/assets/35757823/a0ccbf00-d821-4ff8-bc63-e53aea737af8)
 
