@@ -2,7 +2,10 @@ export function getMean(data, key = null) {
   if (!key) {
     throw new Error("object as data needs key");
   }
-  const res = data.reduce((acc, curr) => parseInt(acc + curr[key]), 0);
+  const res = data.reduce((acc, curr) => {
+    acc += +curr[key];
+    return acc;
+  }, 0);
   return (res / data.length).toFixed(3);
 }
 
